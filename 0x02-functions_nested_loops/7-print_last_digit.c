@@ -6,18 +6,14 @@
  * @n: the int to extract the last digit from
  * Return: value of the last digit
  */
-
-int print_last_digit(int)
+int print_last_digit(int n)
 {
-	int a;
+	int last_digit = n % 10;
 
-	if (n < 0)
-		n = -n;
-	a = n % 10;
+	if (last_digit < 0)
+		last_digit *= -1;
 
-	if (a < 0)
-		a = -a;
-	_putchar(a + '0');
+	_putchar(last_digit + '0');
 
-	return (a);
+	return (last_digit);
 }
