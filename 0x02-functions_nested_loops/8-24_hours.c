@@ -1,11 +1,10 @@
 #include "main.h"
 
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * jack_bauer - prints every minute of the day of
+ * Jack Bauer
  */
+
 void jack_bauer(void)
 {
 	int hour, minute;
