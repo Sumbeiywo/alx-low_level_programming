@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * times_table - Prints the 9 times table, starting with 0.
  */
-int main(void)
+
+void times_table(void)
 {
 	int num, mult, prod;
 
